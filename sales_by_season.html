@@ -1,0 +1,70 @@
+
+<!-- saved from url=(0033)http://127.0.0.1:5500/season.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="./sales_by_season_files/loader.js.download"></script>
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Season", "Sales"],
+          ["Winter", 81130340],
+          ["Summer", 92858529],
+          ["Autumn", 94981362],
+          ["Spring", 84726603],
+        ]);
+
+        var options = {
+          title: "Sales by Season (in Dollars)",
+          pieHole: 0.6,
+        };
+
+        var chart = new google.visualization.PieChart(
+          document.getElementById("donutchart")
+        );
+        chart.draw(data, options);
+      }
+    </script><script type="text/javascript" charset="UTF-8" src="./sales_by_season_files/loader.js(1).download"></script>
+  <link id="load-css-0" rel="stylesheet" type="text/css" href="./sales_by_season_files/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="./sales_by_season_files/util.css"><script type="text/javascript" charset="UTF-8" src="./sales_by_season_files/jsapi_compiled_default_module.js.download"></script><script type="text/javascript" charset="UTF-8" src="./sales_by_season_files/jsapi_compiled_graphics_module.js.download"></script><script type="text/javascript" charset="UTF-8" src="./sales_by_season_files/jsapi_compiled_ui_module.js.download"></script><script type="text/javascript" charset="UTF-8" src="./sales_by_season_files/jsapi_compiled_corechart_module.js.download"></script></head>
+  <body>
+    <div id="donutchart" style="width: 900px; height: 500px"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 900px; height: 500px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="900" height="500" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_0"><filter id="_ABSTRACT_RENDERER_ID_1"><fegaussianblur in="SourceAlpha" stdDeviation="2"></fegaussianblur><feoffset dx="1" dy="1"></feoffset><fecomponenttransfer><fefunca type="linear" slope="0.1"></fefunca></fecomponenttransfer><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter></defs><rect x="0" y="0" width="900" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="161" y="70.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Sales by Season (in Dollars)</text><rect x="161" y="59" width="579" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="542" y="96" width="198" height="83" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g column-id="Winter"><rect x="542" y="96" width="198" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="561" y="107.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Winter</text></g><circle cx="549" cy="103" r="7" stroke="none" stroke-width="0" fill="#3366cc"></circle></g><g column-id="Summer"><rect x="542" y="119" width="198" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="561" y="130.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Summer</text></g><circle cx="549" cy="126" r="7" stroke="none" stroke-width="0" fill="#dc3912"></circle></g><g column-id="Autumn"><rect x="542" y="142" width="198" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="561" y="153.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Autumn</text></g><circle cx="549" cy="149" r="7" stroke="none" stroke-width="0" fill="#ff9900"></circle></g><g column-id="Spring"><rect x="542" y="165" width="198" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="561" y="176.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Spring</text></g><circle cx="549" cy="172" r="7" stroke="none" stroke-width="0" fill="#109618"></circle></g></g><g><path d="M340,158.60000000000002L340,97A154,154,0,0,1,492.7090890265639,231.1019064059648L431.6254534159383,239.0611438435789A92.39999999999999,92.39999999999999,0,0,0,340,158.60000000000002" stroke="#ffffff" stroke-width="1" fill="#3366cc"></path><text text-anchor="start" x="399.9440732310276" y="164.86336283821748" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">22.9%</text></g><g><path d="M431.6254534159383,239.0611438435789L492.7090890265639,231.1019064059648A154,154,0,0,1,347.81951854376325,404.801349570619L344.6917111262579,343.2808097423714A92.39999999999999,92.39999999999999,0,0,0,431.6254534159383,239.0611438435789" stroke="#ffffff" stroke-width="1" fill="#dc3912"></path><text text-anchor="start" x="412.119460584094" y="332.74048281308853" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">26.3%</text></g><g><path d="M247.7992619427564,244.93502665302213L186.33210323792733,240.89171108837024A154,154,0,0,1,340,97L340,158.60000000000002A92.39999999999999,92.39999999999999,0,0,0,247.7992619427564,244.93502665302213" stroke="#ffffff" stroke-width="1" fill="#109618"></path><text text-anchor="start" x="240.41422739782553" y="164.4994212657873" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">24%</text></g><g><path d="M344.6917111262579,343.2808097423714L347.81951854376325,404.801349570619A154,154,0,0,1,186.33210323792733,240.89171108837024L247.7992619427564,244.93502665302213A92.39999999999999,92.39999999999999,0,0,0,344.6917111262579,343.2808097423714" stroke="#ffffff" stroke-width="1" fill="#ff9900"></path><text text-anchor="start" x="234.12797500814787" y="340.5030257367334" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#ffffff">26.9%</text></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Season</th><th>Sales</th></tr></thead><tbody><tr><td>Winter</td><td>81,130,340</td></tr><tr><td>Summer</td><td>92,858,529</td></tr><tr><td>Autumn</td><td>94,981,362</td></tr><tr><td>Spring</td><td>84,726,603</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 510px; left: 910px; white-space: nowrap; font-family: Arial; font-size: 14px; font-weight: bold;">92,858,529 (26.3%)</div><div></div></div></div>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
